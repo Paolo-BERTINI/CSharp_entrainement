@@ -1,0 +1,15 @@
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\bin\Debug\net9.0\premier_projet.exe
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\bin\Debug\net9.0\premier_projet.deps.json
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\bin\Debug\net9.0\premier_projet.runtimeconfig.json
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\bin\Debug\net9.0\premier_projet.dll
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\bin\Debug\net9.0\premier_projet.pdb
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.AssemblyInfoInputs.cache
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.AssemblyInfo.cs
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.csproj.CoreCompileInputs.cache
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.sourcelink.json
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.dll
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\refint\premier_projet.dll
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.pdb
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\premier_projet.genruntimeconfig.cache
+C:\Users\berti\OneDrive\Bureau\Python\CSharp_entrainement\premier_projet\obj\Debug\net9.0\ref\premier_projet.dll

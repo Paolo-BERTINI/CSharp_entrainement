@@ -81,5 +81,10 @@ class Program
         {
             Console.WriteLine(lettre);
         }
+
+        string? text = Console.ReadLine(); // Le ? permet de déclarer une variable nullable (pas obligatoire)
+        string texte = Console.ReadLine() ?? "Valeur par défaut";  // Si Console.ReadLine() retourne null,
+                                                                   // "Valeur par défaut" est assigné (pas obligatoire)
+        Console.WriteLine(text + "\n" + texte);
     }
 }

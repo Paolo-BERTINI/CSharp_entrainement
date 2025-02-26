@@ -81,8 +81,5 @@ class Program
         {
             Console.WriteLine(lettre);
         }
-
-        int joueur = Console.Read(); // récupère mais en ASCII
-        Console.WriteLine(joueur);
     }
 }

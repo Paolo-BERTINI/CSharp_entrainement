@@ -68,6 +68,12 @@ class Program
         }
         while(j < 5);
 
-        // continue; break mais relance la boucle
+        for(int k = 0; k < 10; k++)
+        {
+            Console.WriteLine("ici");
+            if(k == 5)
+                continue; // break mais relance la boucle
+            Console.WriteLine("là");
+        }
     }
 }

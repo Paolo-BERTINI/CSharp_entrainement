@@ -52,5 +52,12 @@ class Program
         // else
         //     bool result = false;
         Console.WriteLine(result);
+
+        int i = 0;
+        while(i < 5)
+        {
+            Console.WriteLine("mot");
+            i++;
+        }
     }
 }

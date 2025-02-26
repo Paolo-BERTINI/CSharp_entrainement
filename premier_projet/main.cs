@@ -6,7 +6,10 @@ class Program
     {
         string moi = "azerty";
         int x = 0;
-        x += 1;
+        x++; // x += 1;
+        // x++ != ++x; priorité en fonction si c'est un sufixe ou un préfixe
+        // WriteLine(++x)      =       WriteLine(x + 1);
+        // WriteLine(x++)      =       WriteLine(x);  x += 1;
         Console.WriteLine($"Hello World ! I'm {x} {moi}");
     }
 }

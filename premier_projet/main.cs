@@ -77,7 +77,6 @@ class Program
         }
 
         string elt = "alpha";
-
         foreach(char lettre in elt)
         {
             Console.WriteLine(lettre);

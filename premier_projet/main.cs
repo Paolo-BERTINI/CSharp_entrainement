@@ -19,8 +19,10 @@ class Program
         Console.WriteLine(4 == 4 && 3 == 2); // && = and
         Console.WriteLine(4 == 4 || 2 == 3); // || = or
         
-        int nbr = -1;
+        int nbr = 1;
         if(nbr < 0)
+            Console.WriteLine($"nbr = {nbr}\tNégatif");
+        else if(nbr == 0) // else if = elif
             Console.WriteLine($"nbr = {nbr}");
         else
         {

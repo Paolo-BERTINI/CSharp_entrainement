@@ -59,5 +59,13 @@ class Program
             Console.WriteLine("mot");
             i++;
         }
+
+        int j = 5;
+        do
+        {
+            Console.WriteLine("autre");
+            i++;
+        }
+        while(j < 5);
     }
 }

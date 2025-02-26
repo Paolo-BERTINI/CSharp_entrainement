@@ -18,5 +18,11 @@ class Program
 
         Console.WriteLine(4 == 4 && 3 == 2); // && = and
         Console.WriteLine(4 == 4 || 2 == 3); // || = or
+
+        bool y = false;
+        if(y == true)
+            Console.WriteLine($"y est {y}");
+        else
+            Console.WriteLine($"y est {y}");
     }
 }

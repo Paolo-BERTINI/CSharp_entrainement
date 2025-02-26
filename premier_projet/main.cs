@@ -24,5 +24,14 @@ class Program
             Console.WriteLine($"y est {y}");
         else
             Console.WriteLine($"y est {y}");
+        
+        int nbr = -1;
+        if(nbr < 0)
+            Console.WriteLine($"nbr = {nbr}");
+        else
+        {
+            Console.Write($"nbr = {nbr}");
+            Console.WriteLine("\tPositif");
+        }
     }
 }

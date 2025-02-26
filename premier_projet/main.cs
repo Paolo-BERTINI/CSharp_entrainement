@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 class Program
 {
@@ -28,6 +29,20 @@ class Program
         {
             Console.Write($"nbr = {nbr}");
             Console.WriteLine("\tPositif");
+        }
+
+        string nom = "azerty";
+        switch(nom) // Le "switch" dans d'autre langage ne marche pas forcément pour les string
+        {
+            case "qwerty":
+                Console.WriteLine($"Ton nom est {nom}");
+                break;
+            case "azerty":
+                Console.WriteLine($"Ton nom est {nom}");
+                break;
+            default:
+                Console.WriteLine($"Ton nom est {nom} mais tom nom est incorrect");
+                break;
         }
     }
 }

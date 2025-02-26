@@ -11,9 +11,12 @@ class Program
         // WriteLine(++x)      =       WriteLine(x + 1);
         // WriteLine(x++)      =       WriteLine(x);  x += 1;
         Console.WriteLine($"Hello World ! I'm {x} {moi}");
-        
+
         bool test = false; // pas False
         test = true; // pas True
         Console.WriteLine(!test); // ! = not
+
+        Console.WriteLine(4 == 4 && 3 == 2); // && = and
+        Console.WriteLine(4 == 4 || 2 == 3); // || = or
     }
 }

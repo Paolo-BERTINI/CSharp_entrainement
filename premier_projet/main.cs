@@ -75,5 +75,12 @@ class Program
                 continue; // break mais relance la boucle
             Console.WriteLine("là");
         }
+
+        string elt = "alpha";
+
+        foreach(char lettre in elt)
+        {
+            Console.WriteLine(lettre);
+        }
     }
 }

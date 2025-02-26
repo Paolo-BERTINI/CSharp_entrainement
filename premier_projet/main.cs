@@ -44,5 +44,13 @@ class Program
                 Console.WriteLine($"Ton nom est {nom} mais tom nom est incorrect");
                 break;
         }
+
+        int val = 0;
+        bool result = (val == 0) ? true : false;
+        // if(val == 0)
+        //     bool result = true;
+        // else
+        //     bool result = false;
+        Console.WriteLine(result);
     }
 }

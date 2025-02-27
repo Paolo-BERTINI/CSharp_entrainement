@@ -88,14 +88,14 @@ class Program
                                                                    // "Valeur par défaut" est assigné (pas obligatoire)
         Console.WriteLine(text + "\n" + texte);
 
-        Fonction(elt, nbr);
+        Console.WriteLine(Fonction(elt, nbr));
         /* 
             Accès           : public, protected, private
             Modificateurs   : abstract, sealed, virtual, unsafe
          */
     }
-    public static void Fonction(string args, int entier)
+    public static string Fonction(string args, int entier)
     {
-        Console.WriteLine($"la lettre {args} est différent de {entier}");
+        return $"la lettre {args} est différent de {entier}";
     }
 }

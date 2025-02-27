@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
@@ -87,10 +88,14 @@ class Program
                                                                    // "Valeur par défaut" est assigné (pas obligatoire)
         Console.WriteLine(text + "\n" + texte);
 
-        static void fonction(string args)
-        {
-            Console.WriteLine($"la lettre {args}");
-        }
-        fonction(elt);
+        Fonction(elt, nbr);
+        /* 
+            Accès           : public, protected, private
+            Modificateurs   : abstract, sealed, virtual, unsafe
+         */
+    }
+    public static void Fonction(string args, int entier)
+    {
+        Console.WriteLine($"la lettre {args} est différent de {entier}");
     }
 }

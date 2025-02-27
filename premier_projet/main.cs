@@ -94,7 +94,7 @@ class Program
             Modificateurs   : abstract, sealed, virtual, unsafe
          */
     }
-    public static string Fonction(string args, int entier)
+    public static string Fonction(string args, int entier = 0)
     {
         return $"la lettre {args} est différent de {entier}";
     }

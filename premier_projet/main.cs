@@ -88,7 +88,7 @@ class Program
                                                                    // "Valeur par défaut" est assigné (pas obligatoire)
         Console.WriteLine(text + "\n" + texte);
 
-        Console.WriteLine(Fonction(elt, nbr));
+        Console.WriteLine(Fonction(elt));
         /* 
             Accès           : public, protected, private
             Modificateurs   : abstract, sealed, virtual, unsafe

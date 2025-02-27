@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 
@@ -89,13 +90,18 @@ class Program
         Console.WriteLine(text + "\n" + texte);
 
         Console.WriteLine(Fonction(elt));
+        Methode();
         /* 
             Accès           : public, protected, private
             Modificateurs   : abstract, sealed, virtual, unsafe
          */
+        // ref; Référence pour éviter les effets de bord et créer une copie. Pour la lire et la modifier
+        // in; Référence pour éviter les effets de bord et créer une copie. Pour la lire seulement
+        // out; Référence p déclarer depuis l'extérieur ? Marce no entendi esto
     }
     public static string Fonction(string args, int entier = 0)
     {
         return $"la lettre {args} est différent de {entier}";
     }
+    public static void Methode() => Console.WriteLine("haha");
 }

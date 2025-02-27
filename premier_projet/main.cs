@@ -86,5 +86,11 @@ class Program
         string texte = Console.ReadLine() ?? "Valeur par défaut";  // Si Console.ReadLine() retourne null,
                                                                    // "Valeur par défaut" est assigné (pas obligatoire)
         Console.WriteLine(text + "\n" + texte);
+
+        static void fonction(string args)
+        {
+            Console.WriteLine($"la lettre {args}");
+        }
+        fonction(elt);
     }
 }

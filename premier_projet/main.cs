@@ -3,9 +3,9 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 
-class Program
+class Cours
 {
-    static void Main(string[] args)
+    static void Test()
     {
         string moi = "azerty";
         int x = 0;
@@ -92,7 +92,7 @@ class Program
         Console.WriteLine(Fonction(elt));
         Methode();
         /* 
-            Accès           : public, protected, private
+            Accès           : public, protected, private, internal (possibilité de mélanger)
             Modificateurs   : abstract, sealed, virtual, unsafe
          */
         // ref; Référence pour éviter les effets de bord et créer une copie. Pour la lire et la modifier
@@ -104,4 +104,44 @@ class Program
         return $"la lettre {args} est différent de {entier}";
     }
     public static void Methode() => Console.WriteLine("haha");
+}
+
+public struct Voiture // Les structures sont faites pour des données pas trop complexe et qui ne changent quasiment pas. Privé par défaut
+{                     // readonly; pour que lire sans pouvoir modifier
+    public string Marque; // readonly;
+    public int Nbr2places; // readonly;
+    public Voiture(string marque, int nbr2places)
+    {
+        Marque = marque;
+        Nbr2places = nbr2places;
+    }
+    public override string ToString() => $"Voiture de marque {Marque} avec {Nbr2places} places"; // readonly
+}
+public class Stock // abstract, abstract et partial no entendi Marce
+{
+    private int Capacity;
+    public Stock()
+    {
+        Capacity = 10;
+    }
+    public Stock(int capacity)
+    {
+        Capacity = capacity;
+    }
+    public override string ToString() => $"Capacité du stock égal à {Capacity}";
+}
+
+namespace App
+{
+    
+// Marce no entiendo porque tengo que tener un "namespace" para que los dos scripts se conecten
+// o sino debo poner todo lo de encima en comentario
+class Base
+    {
+        static void Main()
+        {
+            Stock st = new Stock();
+            Console.WriteLine(st);
+        }
+    }
 }
